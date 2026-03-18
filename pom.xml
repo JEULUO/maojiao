@@ -1,0 +1,68 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 1. 项目坐标 (必须唯一) -->
+    <groupId>com.main.java</groupId>       <!-- 你的包名或公司域名反转 -->
+    <artifactId>my-project-name</artifactId> <!-- 项目名称，通常是小写无空格 -->
+    <version>1.0.0-SNAPSHOT</version>    <!-- 版本号 -->
+    <packaging>jar</packaging>           <!-- 打包方式：jar 或 war -->
+
+    <!-- 2. 项目属性 (可选，推荐设置编码和 JDK 版本) -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source> <!-- 根据你的项目修改，如 11, 17, 21 -->
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- 3. 依赖管理 (关键步骤：把你 lib 文件夹里的 jar 包换成这里的配置) -->
+    <dependencies>
+        <!-- 示例：如果你之前手动拷贝了 mysql-connector-java.jar -->
+        <!-- 去 https://mvnrepository.com/ 搜索对应的坐标 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
+        <!-- 示例：如果你用了 JUnit 测试 -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- 添加你项目中用到的所有其他依赖... -->
+
+<!--        lombok依赖-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- 版本号可以稍旧一点，稳定为主 -->
+            <scope>provided</scope>
+        </dependency>
+<!--        common-io-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+    </dependencies>
+
+    <!-- 4. 构建配置 (通常默认即可，特殊需求再配) -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

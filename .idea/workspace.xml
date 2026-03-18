@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9a1806b-0a7c-4595-8f96-c0df100580be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GUI2/Java_test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2YjtsPEQpDFIgg1TKwvDyYIfuBA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FileInputStream_test.executor": "Run",
+    "Application.FileRader_test.executor": "Run",
+    "Application.FlieWrite_test.executor": "Run",
+    "Application.In_Out_Copy.executor": "Run",
+    "Application.Thread_pool.executor": "Run",
+    "Application.Time_Test.executor": "Run",
+    "Application.com.thread.Thread_pool.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.my-project-name [clean].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/project/idea_prj/Java_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.com.GUI2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_prj\Java_test" />
+      <recent name="D:\idea_prj\Java_test\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\idea_prj\Java_test\src\main\java\com\GUI2" />
+      <recent name="D:\project\idea_prj\Java_test\src\main\java\com\thread" />
+      <recent name="D:\project\idea_prj\Java_test\src" />
+      <recent name="D:\project\idea_prj\Java_test\src\com" />
+      <recent name="D:\project\idea_prj\Java_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Time_Test">
+    <configuration name="FileInputStream_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file_io.fileinputstream.FileInputStream_test" />
+      <module name="my-project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file_io.fileinputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileRader_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file_io.fileinputstream.FileRader_test" />
+      <module name="my-project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file_io.fileinputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlieWrite_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file_io.fileinputstream.FlieWrite_test" />
+      <module name="my-project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file_io.fileinputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="In_Out_Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file_io.fileinputstream.In_Out_Copy" />
+      <module name="my-project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file_io.fileinputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Time_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.file_io.fileinputstream.Time_Test" />
+      <module name="my-project-name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.file_io.fileinputstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Time_Test" />
+        <item itemvalue="Application.FlieWrite_test" />
+        <item itemvalue="Application.FileRader_test" />
+        <item itemvalue="Application.In_Out_Copy" />
+        <item itemvalue="Application.FileInputStream_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\JueLuo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9a1806b-0a7c-4595-8f96-c0df100580be" name="Changes" comment="" />
+      <created>1701051025968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701051025968</updated>
+      <workItem from="1701051027020" duration="293000" />
+      <workItem from="1701051876275" duration="357000" />
+      <workItem from="1701052565811" duration="282000" />
+      <workItem from="1701055090310" duration="150000" />
+      <workItem from="1701055637458" duration="74000" />
+      <workItem from="1701057294932" duration="61000" />
+      <workItem from="1704183099383" duration="18000" />
+      <workItem from="1713244841768" duration="6000" />
+      <workItem from="1773664335287" duration="1135000" />
+      <workItem from="1773665482953" duration="857000" />
+      <workItem from="1773666352479" duration="61000" />
+      <workItem from="1773666421271" duration="2789000" />
+      <workItem from="1773816750964" duration="13373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
